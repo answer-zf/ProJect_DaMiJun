@@ -1,0 +1,451 @@
+<!--
+* @Author: answer-zf
+* @Date:   2019-08-23 08:48:21
+* @Last Modified by:   answer-zf
+* @Last Modified time: 2019-09-03 10:07:56
+* @E-mail: 657829956@qq.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <title>大米君--快餐有品__生活有质</title>
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
+    <!-- bootstrap4.0 -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-icon.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- 导航 -->
+    <nav class="navbar navbar-expand-md navbar-zf fixed-top">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"></a>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-list">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="nav-list">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-center active" href="index.html">网站首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" href="origin.html">关于我们</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" href="food.html">特色菜品</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" href="news.html">新闻资讯</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" href="coop.html">合作加盟</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" href="contact.html">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner -->
+    <section id="banner" class="carousel slide" data-ride="carousel">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#banner" data-slide-to="0" class="active border-none"></li>
+            <li data-target="#banner" data-slide-to="1" class="border-none"></li>
+            <li data-target="#banner" data-slide-to="2" class="border-none"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/banner1.jpg" alt="First slide" class="w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner2.jpg" alt="Second slide" class="w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner1.jpg" alt="Third slide" class="w-100">
+            </div>
+        </div>
+    </section>
+    <!-- about -->
+    <section class="i-about py-5 bg-wP">
+        <!-- pc -->
+        <div class="container py-3 d-none d-sm-block">
+            <div class="row height-426">
+                <div class="col-md-7 i-ab-img position-relative">
+                    <img src="img/i-about.jpg" class="w-100 position-absolute inti-zf tran">
+                </div>
+                <div class="col-md-5 position-relative">
+                    <div class="position-absolute inti-zf w-100 pt-4 i-ab-ati tran">
+                        <h4 class="ifont h2 color-m ls-2 mt-2 mb-2">是米粒总会发光</h4>
+                        <h6 class="h5 text-capitalize ls-1 color-m">It's rice that always shines</h6>
+                        <div class="line-40 my-4"></div>
+                        <span class="lh-ab ls-2 d-block mb-4">中式快餐作为大众餐饮的主力业态和高频刚需的朝阳产业，是餐饮创业者进入最多、也是店铺数高速增长的品类。“大米君”从产品口味、场景再造、赢利模式等方面，进行了全方位的消费升级；精准定位用户，以品牌及产品为核心，打造下个中式快餐品牌风向标。</span>
+                        <button class="btn bg-m color-w ls-2 ml-auto d-block">关于我们</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- phone -->
+        <div class="container py-3 d-block d-sm-none">
+            <div class="row">
+                <div class="col-md-7">
+                    <img src="img/i-about.jpg" class="w-100">
+                </div>
+                <div class="col-md-5">
+                    <div class="w-100 pt-4 tran">
+                        <h4 class="ifont h2 color-m ls-2 mt-2 mb-2">是米粒总会发光</h4>
+                        <h6 class="h5 text-capitalize ls-1 color-m">It's rice that always shines</h6>
+                        <div class="line-40 my-4"></div>
+                        <span class="lh-ab ls-2 d-block mb-4">中式快餐作为大众餐饮的主力业态和高频刚需的朝阳产业，是餐饮创业者进入最多、也是店铺数高速增长的品类。“大米君”从产品口味、场景再造、赢利模式等方面，进行了全方位的消费升级；精准定位用户，以品牌及产品为核心，打造下个中式快餐品牌风向标。</span>
+                        <button class="btn bg-m color-w ls-2 ml-auto d-block">关于我们</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner end-->
+
+    <!-- origin -->
+    <section class="py-5 i-origin">
+        <!-- pc -->
+        <div class="container pt-3 d-none d-sm-block">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img src="img/i-orit.png" alt="">
+                </div>
+            </div>
+            <div class="row px-0 mt-5">
+                <div class="col-md-3 text-center mb-4">
+                    <div class="img position-relative height-255"><img src="img/i-ori1.jpg" alt="" class="w-100 position-absolute inti-zf tran"></div>
+                    <div class="text py-3 bg-w">
+                        <h4 class="ifont mb-n1 text-center color-m ls-4">我不随便</h4>
+                        <small class="text-capitalize color-m h6">I'm not casual</small>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="img position-relative height-255"><img src="img/i-ori2.jpg" alt="" class="w-100 position-absolute inti-zf tran"></div>
+                    <div class="text py-3 bg-w">
+                        <h4 class="ifont mb-n1 text-center color-m ls-4">我不将就</h4>
+                        <small class="text-capitalize color-m h6">I'm never settle</small>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="img position-relative height-255"><img src="img/i-ori3.jpg" alt="" class="w-100 position-absolute inti-zf tran"></div>
+                    <div class="text py-3 bg-w">
+                        <h4 class="ifont mb-n1 text-center color-m ls-4">我不平庸</h4>
+                        <small class="text-capitalize color-m h6">I'm not mediocre</small>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div class="img position-relative height-255"><img src="img/i-ori4.jpg" alt="" class="w-100 position-absolute inti-zf tran"></div>
+                    <div class="text py-3 bg-w">
+                        <h4 class="ifont mb-n1 text-center color-m ls-4">我只做自己</h4>
+                        <small class="text-capitalize color-m h6">I am what I am</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- phone -->
+        <div class="container pt-3 d-block d-sm-none">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img src="img/i-orit.png" alt="" class="w-100">
+                </div>
+            </div>
+            <div class="row px-0 mt-5">
+                <div class="col-md-3 text-center mb-4">
+                    <div><img src="img/i-ori1.jpg" alt="" class="w-100 tran"></div>
+                    <div class="text py-3 bg-w">
+                        <h4 class="ifont mb-n1 text-center color-m ls-4">我不随便</h4>
+                        <small class="text-capitalize color-m h6">I'm not casual</small>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div><img src="img/i-ori2.jpg" alt="" class="w-100 tran"></div>
+                    <div class="text py-3 bg-w">
+                        <h4 class="ifont mb-n1 text-center color-m ls-4">我不将就</h4>
+                        <small class="text-capitalize color-m h6">I'm never settle</small>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div><img src="img/i-ori3.jpg" alt="" class="w-100 tran"></div>
+                    <div class="text py-3 bg-w">
+                        <h4 class="ifont mb-n1 text-center color-m ls-4">我不平庸</h4>
+                        <small class="text-capitalize color-m h6">I'm not mediocre</small>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4">
+                    <div><img src="img/i-ori4.jpg" alt="" class="w-100 tran"></div>
+                    <div class="text py-3 bg-w">
+                        <h4 class="ifont mb-n1 text-center color-m ls-4">我只做自己</h4>
+                        <small class="text-capitalize color-m h6">I am what I am</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- origin end -->
+
+    <!-- food -->
+        <!-- pc -->
+        <div class="section species bg-wP py-5 d-none d-sm-block">
+        <div class="specy pt-3 pb-2">
+            <div class="w-100 text-center pb-3">
+                <img src="img/i-foodt.png" alt="">
+            </div>
+            <ul class="pl-0">
+                <li>
+                    <div class="mak_img">
+                        <img src="img/i-food1.jpg">
+                        <div class="brand_intro">
+                            精选各大菜系名品，总有你的最爱
+                        </div>
+                    </div>
+                    <p class="p1 my-2 color-m ifont h4 text-center ls-2 pt-4">名品菜系</p>
+                    <p class="p2 mt-3 color-m">集合中国特色菜品大米君为您提供最正宗优质的美食。</p>
+                </li>
+                <li>
+                    <div class="mak_img">
+                        <img src="img/i-food2.jpg" alt="">
+                        <div class="brand_intro">
+                            年轻人趋之若鹜的美味经典怎能放过！
+                        </div>
+                    </div>
+                    <p class="p1 my-2 color-m ifont h4 text-center ls-2 pt-4">油炸小吃系</p>
+                    <p class="p2 mt-3 color-m">我国传统的小吃之一品种也非常多可以炸不同类型的食物。</p>
+                </li>
+                <li>
+                    <div class="mak_img">
+                        <img src="img/i-food3.jpg" alt="">
+                        <div class="brand_intro">
+                            美味、滋补、营养，深受老人和儿童喜欢
+                        </div>
+                    </div>
+                    <p class="p1 my-2 color-m ifont h4 text-center ls-2 pt-4">浓汤粥系</p>
+                    <p class="p2 mt-3 color-m">浓汤是一种把固体食物材料写成液态的食物;粥类具有很暖胃补体的效果。</p>
+                </li>
+                <li>
+                    <div class="mak_img">
+                        <img src="img/i-food4.jpg" alt="">
+                        <div class="brand_intro">
+                            清爽可口的前菜，配上秘制调料，那滋味···
+                        </div>
+                    </div>
+                    <p class="p1 my-2 color-m ifont h4 text-center ls-2 pt-4">招牌凉菜系</p>
+                    <p class="p2 mt-3 color-m">它是具有独特风格拼摆技术性强的菜肴食用时都是吃凉的，称之为凉菜。</p>
+                </li>
+                <li>
+                    <div class="mak_img">
+                        <img src="img/i-food5.jpg" alt="">
+                        <div class="brand_intro">
+                            甜到心里的恋爱般的感觉，怎么能不来一口。
+                        </div>
+                    </div>
+                    <p class="p1 my-2 color-m ifont h4 text-center ls-2 pt-4">甜心甜品系</p>
+                    <p class="p2 mt-3 color-m">是治疗抑郁、放松心情的灵丹妙药，大多人在犒劳自己时喜欢来一点甜的</p>
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- phone -->
+        <section class="pt-5 mb-3 d-block d-sm-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center"><img src="img/i-foodt.png" alt="" class="w-100 mb-5"></div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="img/i-food1.jpg">
+                    <p class="p1 my-2 color-m ifont h4 text-center ls-2 pt-4">名品菜系</p>
+                    <p class="p2 mt-3 color-m w-227">集合中国特色菜品大米君为您提供最正宗优质的美食。</p>
+                </div>
+                <div class="col-12 text-center">
+                    <img src="img/i-food2.jpg">
+                    <p class="p1 my-2 color-m ifont h4 text-center ls-2 pt-4">油炸小吃系</p>
+                    <p class="p2 mt-3 color-m w-227">我国传统的小吃之一品种也非常多可以炸不同类型的食物。</p>
+                </div>
+                <div class="col-12 text-center">
+                    <img src="img/i-food3.jpg">
+                    <p class="p1 my-2 color-m ifont h4 text-center ls-2 pt-4">浓汤粥系</p>
+                    <p class="p2 mt-3 color-m w-227">浓汤是一种把固体食物材料写成液态的食物;粥类具有很暖胃补体的效果。</p>
+                </div>
+                <div class="col-12 text-center">
+                    <img src="img/i-food4.jpg">
+                    <p class="p1 my-2 color-m ifont h4 text-center ls-2 pt-4">招牌凉菜系</p>
+                    <p class="p2 mt-3 color-m w-227">它是具有独特风格拼摆技术性强的菜肴食用时都是吃凉的，称之为凉菜。</p>
+                </div>
+                <div class="col-12 text-center">
+                    <img src="img/i-food5.jpg">
+                    <p class="p1 my-2 color-m ifont h4 text-center ls-2 pt-4">甜心甜品系</p>
+                    <p class="p2 mt-3 color-m w-227">是治疗抑郁、放松心情的灵丹妙药，大多人在犒劳自己时喜欢来一点甜的。</p>
+                </div>
+            </div>
+        </div>
+        </section>
+    <!-- food end -->
+
+    <!-- 小banner -->
+        <!-- pc -->
+        <section class="d-none d-sm-block"><img src="img/bannerMin.jpg" alt="" class="w-100"></section>
+        <!-- phone -->
+        <section class="d-block d-sm-none"><img src="img/bannerMin-phone.jpg" alt="" class="w-100"></section>
+    <!-- 小banner end -->
+
+
+    <!-- 新闻 -->    
+    <section class="i-news pt-5 bg-wP">
+        <div class="container py-3">
+            <div class="row pb-5">
+                <div class="col-md-12 text-center"><img src="img/i-newst.png" alt="" class="mw-100"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <a href="news_article.html">
+                        <div class="text bg-f5 px-3 py-4">
+                            <h4 class="ifont color-m ls-4 text-truncate">产品更丰富更高的溢价</h4>
+                            <div class="line-40m my-2"></div>
+                            <h6 class="color-m">2019.8.23</h6>
+                            <span class="h7 ls-1 color-b">在原有品类基础上基于新定位大变小，少变多，不但增加点单的丰富度，还提升了客单价增强品牌的盈利能力。</span>
+                        </div>
+                        <img src="img/i-news.jpg" class="w-100">
+                    </a>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <a href="news_article.html">
+                        <div class="text bg-f5 px-3 py-4">
+                            <h4 class="ifont color-m ls-4 text-truncate">产品更丰富更高的溢价</h4>
+                            <div class="line-40m my-2"></div>
+                            <h6 class="color-m">2019.8.23</h6>
+                            <span class="h7 ls-1 color-b">在原有品类基础上基于新定位大变小，少变多，不但增加点单的丰富度，还提升了客单价增强品牌的盈利能力。</span>
+                        </div>
+                        <img src="img/i-news.jpg" class="w-100">
+                    </a>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <a href="news_article.html">
+                        <div class="text bg-f5 px-3 py-4">
+                            <h4 class="ifont color-m ls-4 text-truncate">产品更丰富更高的溢价</h4>
+                            <div class="line-40m my-2"></div>
+                            <h6 class="color-m">2019.8.23</h6>
+                            <span class="h7 ls-1 color-b">在原有品类基础上基于新定位大变小，少变多，不但增加点单的丰富度，还提升了客单价增强品牌的盈利能力。</span>
+                        </div>
+                        <img src="img/i-news.jpg" class="w-100">
+                    </a>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <a href="news_article.html">
+                        <div class="text bg-f5 px-3 py-4">
+                            <h4 class="ifont color-m ls-4 text-truncate">产品更丰富更高的溢价</h4>
+                            <div class="line-40m my-2"></div>
+                            <h6 class="color-m">2019.8.23</h6>
+                            <span class="h7 ls-1 color-b">在原有品类基础上基于新定位大变小，少变多，不但增加点单的丰富度，还提升了客单价增强品牌的盈利能力。</span>
+                        </div>
+                        <img src="img/i-news.jpg" class="w-100">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-m pb-5">
+        <div class="container">
+            <div class="row border-bottom bdc-w">
+                <div class="col-md-6 pt-5 pb-4">
+                    <div class="link d-none d-sm-block">
+                        <span class="font-weight-bold display-n ls-1 color-w">友情链接：</span><a href="#" class="px-3 display-n ls-1 color-w-low ml-3">尚京集团</a><a href="#" class="px-3 display-n ls-1 color-w-low">尚京集团</a><a href="#" class="px-3 display-n ls-1 color-w-low">尚京集团</a>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="img/logo.png">
+                </div>
+            </div>
+            <div class="row pt-3 d-flex justify-content-center">
+                <p class="display-l d-inline-block color-w-low ls-1 copyRight">公司地址： 安徽省合肥市滨湖新区金融港A2座16层&nbsp;&nbsp;安徽尚京品牌管理股份有限公司版权所有 皖ICP备18022821号-2</p>
+            </div>
+        </div>
+    </footer>
+    <div class="bottom_float fixed-bottom bg-m py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center col-xs-12 d-flex align-items-center px-0">
+                    <h5 class="mb-0 color-w d-none d-sm-block">
+                        &nbsp;加盟热线：400-8697-698
+                    </h5>
+                    <a href="contact_us.html" class="d-block d-sm-none d-flex justify-content-between align-items-center w-100 px-2">
+                        <div class="d-flex align-items-center">
+                            <img src="img/icon1.png">
+                            <h5 class="mb-0 color-w">
+                                &nbsp;加盟热线：400-8697-698
+                            </h5>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="img/icon2.png">
+                            <h5 class="mb-0 color-w">立即预约</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-8 d-none d-sm-block">
+                    <form class="form-inline" id="navbar-fixed-bottom-form">
+                        <div class="form-group col-lg-5 index_md-3 align-self-center">
+                            <label for="bottom_float_name" class="pr-2 color-w">姓名&nbsp;:&nbsp;&nbsp;</label>
+                            <input type="text" class="form-control" id="bottom_float_name" placeholder="您的姓名" />
+                        </div>
+                        <div class="form-group col-lg-5 index_md-3 align-self-center">
+                            <label for="bottom_float_phone" class="pr-2 color-w">手机&nbsp;:&nbsp;&nbsp;</label>
+                            <input type="text" class="form-control" id="bottom_float_phone" placeholder="您的手机号" />
+                        </div>
+                        <div class="col-lg-2 index_md-6 align-self-center">
+                            <button type="button" onclick="submitPhone()" class="btn btn-warning">
+                                在线预约
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/2.2.2Vue.min.js"></script>
+    <script src="js/zf-vue-main.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/zf.js"></script>
+    <script type="text/javascript">
+    var swiper1 = new Swiper('#p-swiper', {
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        loop: true,
+        autoplay: {
+            delay: 4000,
+            stopOnLastSlide: false,
+            disableOnInteraction: false,
+        },
+        effect: 'cube',
+    });
+    </script>
+</body>
+
+</html>
